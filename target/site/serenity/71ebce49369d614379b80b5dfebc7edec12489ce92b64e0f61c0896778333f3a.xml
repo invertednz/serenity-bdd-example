@@ -1,0 +1,27 @@
+<acceptance-test-run title="Chat engine notices when &quot;Hello&quot; comes late in the chat" name="Chat engine notices when &quot;Hello&quot; comes late in the chat" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="54" timestamp="2016-02-19T14:47:00.370Z">
+  <user-story id="hello" name="Hello" path="stories/chat_engine/do_chat/hello.story"/>
+  <tags>
+    <tag name="Chat engine" type="capability"/>
+    <tag name="Chat engine/Do chat" type="feature"/>
+    <tag name="Do chat/Hello" type="story"/>
+    <tag name="Hello" type="story"/>
+  </tags>
+  <test-group name="Given that I have established a chat" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1">
+      <description>Init</description>
+    </test-step>
+  </test-group>
+  <test-group name="And some things have been said" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2">
+      <description>Say: &lt;span class=&apos;step-parameter&apos;&gt;Some arbitrary words&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I say &quot;Hello&quot;" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2">
+      <description>Say: &lt;span class=&apos;step-parameter&apos;&gt;Hello&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="2">
+    <description>Then the response is &quot;It&apos;s a bit late for hello...&quot;</description>
+  </test-step>
+</acceptance-test-run>

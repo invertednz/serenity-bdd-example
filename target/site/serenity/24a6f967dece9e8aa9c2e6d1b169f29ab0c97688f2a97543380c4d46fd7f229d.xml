@@ -1,0 +1,66 @@
+<acceptance-test-run title="Chat engine includes name in certain responses" name="Chat engine includes name in certain responses" steps="10" successful="3" failures="0" skipped="0" ignored="5" pending="2" annotated-result="PENDING" result="PENDING" duration="111" timestamp="2016-02-19T14:47:00.479Z">
+  <user-story id="chat_remembers_name" name="Chat remembers name" path="stories/chat_engine/do_chat/chat_remembers_name.story"/>
+  <tags>
+    <tag name="Chat engine" type="capability"/>
+    <tag name="Chat engine/Do chat" type="feature"/>
+    <tag name="Chat remembers name" type="story"/>
+    <tag name="Do chat/Chat remembers name" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>said</header>
+      <header>response</header>
+    </headers>
+    <rows>
+      <row result="PENDING">
+        <value>Who am I?</value>
+        <value>You are John.</value>
+      </row>
+      <row result="PENDING">
+        <value>Robot?</value>
+        <value>Yes John?</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {said=Who am I?, response=You are John.}" result="PENDING">
+    <test-step result="SUCCESS" duration="2">
+      <description>Given that I identified myself as &quot;John&quot;</description>
+    </test-step>
+    <test-group name="Given that I have established a chat" result="SUCCESS">
+      <test-step result="SUCCESS" duration="2">
+        <description>Init</description>
+      </test-step>
+    </test-group>
+    <test-step result="PENDING" duration="1">
+      <description>When I say My name is &lt;name&gt;</description>
+    </test-step>
+    <test-step result="IGNORED" duration="18">
+      <description>When I say {Who am I?}</description>
+    </test-step>
+    <test-step result="IGNORED" duration="0">
+      <description>Then the response is {You are John.}</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {said=Robot?, response=Yes John?}" result="PENDING">
+    <test-step result="SUCCESS" duration="2">
+      <description>Given that I identified myself as &quot;John&quot;</description>
+    </test-step>
+    <test-group name="Given that I have established a chat" result="SUCCESS">
+      <test-step result="IGNORED" duration="1">
+        <description>Init</description>
+      </test-step>
+    </test-group>
+    <test-step result="PENDING" duration="1">
+      <description>When I say My name is &lt;name&gt;</description>
+    </test-step>
+    <test-step result="IGNORED" duration="0">
+      <description>When I say {Robot?}</description>
+    </test-step>
+    <test-step result="IGNORED" duration="0">
+      <description>Then the response is {Yes John?}</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

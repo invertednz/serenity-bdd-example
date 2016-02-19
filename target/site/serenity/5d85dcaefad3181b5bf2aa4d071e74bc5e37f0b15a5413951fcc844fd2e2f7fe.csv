@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Chat remembers name","Chat engine includes name in certain responses","PENDING","2016-02-19T14:47:00.479Z","0.0","0.11"
+"Hello","Chat engine notices when ""Hello"" comes late in the chat","SUCCESS","2016-02-19T14:47:00.370Z","0.0","0.05"
+"Chat remembers name","Chat engine replies to My Name Is...","SUCCESS","2016-02-19T14:47:00.435Z","0.0","0.04"
+"Hello","Chat engine replies to hello","SUCCESS","2016-02-19T14:47:00.094Z","0.0","0.21"
