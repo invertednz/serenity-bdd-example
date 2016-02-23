@@ -13,6 +13,7 @@ buildscript {
     }
 }
 
+apply plugin: 'application'
 apply plugin: 'groovy'
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -28,3 +29,15 @@ dependencies {
 }
 
 gradle.startParameter.continueOnFailure = true  
+
+run {
+   standardInput = System.in
+}
+
+jar {
+    mainClassName = "com.firstutility.jh.chat.gui.ChatFrame"
+    manifest {
+        attributes 'Main-Class': "com.firstutility.jh.chat.TerminalChat"
+    }
+}
+
