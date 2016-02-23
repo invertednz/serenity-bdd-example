@@ -1,4 +1,4 @@
-<acceptance-test-run title="Chat engine replies to hello" name="Chat engine replies to hello" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="207" timestamp="2016-02-19T14:47:00.094Z">
+<acceptance-test-run title="Chat engine replies to hello" name="Chat engine replies to hello" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="209" timestamp="2016-02-22T14:10:27.179Z">
   <user-story id="hello" name="Hello" path="stories/chat_engine/do_chat/hello.story"/>
   <tags>
     <tag name="Chat engine" type="capability"/>
@@ -7,16 +7,16 @@
     <tag name="Hello" type="story"/>
   </tags>
   <test-group name="Given that I have established a chat" result="SUCCESS">
-    <test-step result="SUCCESS" duration="27">
+    <test-step result="SUCCESS" duration="26">
       <description>Init</description>
     </test-step>
   </test-group>
   <test-group name="When I say &quot;Hello&quot;" result="SUCCESS">
-    <test-step result="SUCCESS" duration="2">
+    <test-step result="SUCCESS" duration="3">
       <description>Say: &lt;span class=&apos;step-parameter&apos;&gt;Hello&lt;/span&gt;</description>
     </test-step>
   </test-group>
-  <test-step result="SUCCESS" duration="6">
+  <test-step result="SUCCESS" duration="7">
     <description>Then the response is &quot;Hiya&quot;</description>
   </test-step>
 </acceptance-test-run>

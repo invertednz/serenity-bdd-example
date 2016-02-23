@@ -1,4 +1,4 @@
-<acceptance-test-run title="Chat engine includes name in certain responses" name="Chat engine includes name in certain responses" steps="10" successful="3" failures="0" skipped="0" ignored="5" pending="2" annotated-result="PENDING" result="PENDING" duration="111" timestamp="2016-02-19T14:47:00.479Z">
+<acceptance-test-run title="Chat engine includes name in certain responses" name="Chat engine includes name in certain responses" steps="10" successful="3" failures="0" skipped="0" ignored="5" pending="2" annotated-result="PENDING" result="PENDING" duration="110" timestamp="2016-02-22T14:10:27.561Z">
   <user-story id="chat_remembers_name" name="Chat remembers name" path="stories/chat_engine/do_chat/chat_remembers_name.story"/>
   <tags>
     <tag name="Chat engine" type="capability"/>
@@ -40,7 +40,7 @@
     <test-step result="IGNORED" duration="18">
       <description>When I say {Who am I?}</description>
     </test-step>
-    <test-step result="IGNORED" duration="0">
+    <test-step result="IGNORED" duration="1">
       <description>Then the response is {You are John.}</description>
     </test-step>
   </test-group>
@@ -56,7 +56,7 @@
     <test-step result="PENDING" duration="1">
       <description>When I say My name is &lt;name&gt;</description>
     </test-step>
-    <test-step result="IGNORED" duration="0">
+    <test-step result="IGNORED" duration="1">
       <description>When I say {Robot?}</description>
     </test-step>
     <test-step result="IGNORED" duration="0">

@@ -1,4 +1,4 @@
-<acceptance-test-run title="Chat engine replies to My Name Is..." name="Chat engine replies to My Name Is..." steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="41" timestamp="2016-02-19T14:47:00.435Z">
+<acceptance-test-run title="Chat engine replies to My Name Is..." name="Chat engine replies to My Name Is..." steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="38" timestamp="2016-02-22T14:10:27.521Z">
   <user-story id="chat_remembers_name" name="Chat remembers name" path="stories/chat_engine/do_chat/chat_remembers_name.story"/>
   <tags>
     <tag name="Chat engine" type="capability"/>
@@ -12,11 +12,11 @@
     </test-step>
   </test-group>
   <test-group name="When I say &quot;My name is John&quot;" result="SUCCESS">
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="2">
       <description>Say: &lt;span class=&apos;step-parameter&apos;&gt;My name is John&lt;/span&gt;</description>
     </test-step>
   </test-group>
-  <test-step result="SUCCESS" duration="1">
+  <test-step result="SUCCESS" duration="2">
     <description>Then the response is &quot;Good to hear from you John.&quot;</description>
   </test-step>
 </acceptance-test-run>
