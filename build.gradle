@@ -37,7 +37,7 @@ run {
 jar {
     mainClassName = "com.firstutility.jh.chat.gui.ChatFrame"
     manifest {
-        attributes 'Main-Class': "com.firstutility.jh.chat.TerminalChat"
+        attributes 'Main-Class': "com.firstutility.jh.chat.ChatFrame"
     }
 }
 
