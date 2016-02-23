@@ -6,14 +6,14 @@ Narrative:
 Scenario: Chat engine replies to My Name Is...
 
 Given that I have established a chat
-When I say "My name is John"
-Then the response is "Good to hear from you John."
+When I say: My name is John
+Then the response is: Good to hear from you John.
 
 Scenario: Chat engine includes name in certain responses
 
-Given that I identified myself as "John"
-When I say <said>
-Then the response is <response>
+Given that I identified myself as: John
+When I say: <said>
+Then the response is: <response>
 
 Examples:
 | said          | response      |

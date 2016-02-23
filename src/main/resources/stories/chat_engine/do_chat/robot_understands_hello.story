@@ -6,12 +6,12 @@ Narrative:
 Scenario: Chat engine replies to hello
 
 Given that I have established a chat
-When I say "Hello"
-Then the response is "Hiya"
+When I say: Hello
+Then the response is: Hiya
 
 Scenario: Chat engine notices when "Hello" comes late in the chat
 
 Given that I have established a chat
 And some things have been said
-When I say "Hello"
-Then the response is "It's a bit late for hello..."
+When I say: Hello
+Then the response is: It's a bit late for hello...
