@@ -10,4 +10,4 @@ To produce an HTML acceptance test report:
 
 `gradle run` starts the chat robot in a Swing
 window (this was for a demo with a
-non-technical audience)
+non-technical audience -- they love a GUI)
